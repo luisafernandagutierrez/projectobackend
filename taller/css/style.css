@@ -1,0 +1,76 @@
+h1{
+    color:#0bad3e;
+  }
+  a:link, a:visited{
+  background-color:#b5179e;
+  color:white;
+  padding:15px 25px;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  }
+  
+  a:hover,a:active{
+       background-color:#f72585;   
+  
+  }
+  
+p{
+color:#560bad; ;
+
+}
+
+body {
+  font-family: Arial; 
+  padding: 1%
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /*padding: 14px 16px;*/
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+#casos {
+  display: block;
+}
+
+#bcasos {
+ background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 0px solid #ccc;
+  border-top: none;
+  height: 10%;
+  width: 80%;
+}
+
+#searchdata {
+  width: 100%;
+  height: inherit;
+  border:  0px solid #4CAF50;
+  float: right;
+}
+

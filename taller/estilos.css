@@ -1,0 +1,74 @@
+body {
+  font-family: Arial; 
+  padding: 1px
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #CCC;
+   color: black;
+   text-align: center;
+   border: 1px;
+   padding: 1%;
+}
+
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+#casos {
+  display: block;
+}
+
+#bcasos {
+ background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 0px solid #ccc;
+  border-top: none;
+  height: 10%;
+  width: 80%;
+}
+
+#searchdata {
+  width: 100%;
+  height: inherit;
+  border:  0px solid #4CAF50;
+  padding: 1% 1%;
+  float: right;
+}
+
+#sdata{
+  float:right;
+  position: relative;
+  bottom:-73%;
+  right:1%;
+}
